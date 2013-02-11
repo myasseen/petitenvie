@@ -272,7 +272,7 @@ img, iframe {
 	margin: 0 auto;
 }
 #logo {
-	margin-top: 35px;
+	margin-top: 10px;
 }
 #logo, #logo a {
 	float: left;
@@ -304,7 +304,7 @@ img, iframe {
 }
 #primary-menu ul {
 	margin: 0;
-	padding: 30px 0;
+	padding: 0px 0;
 	list-style-type: none;
 	float: right;
 }
@@ -501,13 +501,26 @@ margin-top: -59px;
 /*--------------------------------------------------
 				      COLUMNS
 ---------------------------------------------------*/
-.one, .one-half, .two-third, .one-third, .one-fourth { float:left; position:relative; margin-right:4%; }
+.one, .one-half, .two-third, .one-third, .one-fourth, .one-fifth,.two-fifth,.three-fifth, .fourth-fifth { float:left; position:relative; margin-right:4%; }
 .one { width: 100%; margin-right: 0; }
 .one-half {	width: 48%; }
 .two-third { width: 65.33%; }
 .one-third  { width: 30.66%; }
 .one-fourth { width: 22%; }
+.one-fifth {width: 16.80%; }
+.two-fifth {width: 38.40% }
+.three-fifth {width: 57.60% }
+.fourth-fifth {width: 79.20% }
 .last { margin-right: 0 !important; }
+/*--------------------------------------------------
+				      CUSTOM COLUMNS
+---------------------------------------------------*/
+.c_one, .c_one-fifth,.c_two-fifth, .c_fourth-fifth { float:left; position:relative; margin-right:2%; }
+.c_one { width: 100%; margin-right: 0; }
+.c_one-fifth {width: 18.40%; }
+.c_two-fifth {width: 38.80% }
+.c_fourth-fifth {width: 79.60% }
+.c_last { margin-right: 0 !important; }
 /*--------------------------------------------------
 			TEAM
 ---------------------------------------------------*/

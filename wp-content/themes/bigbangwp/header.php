@@ -47,7 +47,7 @@ $page_template = $path['filename'];
 
 <?php wp_head(); ?>
 </head>
-<body id="top" <?php body_class(); ?>>
+<body id="top" <?php body_class(); ?> style="background-image: url(<?php echo get_template_directory_uri().'/images/pattern/bg-8.png'?>);" >
 
 <?php
 if ($layout == "boxed")
@@ -62,13 +62,20 @@ if ($layout == "boxed")
     <!-- START HEADER -->
     
     <div id="header-wrapper">
-    
+    	
         <div class="header clear">
             
+           
+           
             <div id="logo">    
                 <a href="<?php echo home_url(); ?>"><img src="<?php echo get_option(BRANKIC_VAR_PREFIX."logo"); ?>" alt="" /></a>        
             </div><!--END LOGO-->
         
+           
+           
+                     
+           
+           
             <div id="primary-menu"> 
             <?php 
             wp_nav_menu( array( 'theme_location' => 'primary-menu' , 
@@ -79,7 +86,22 @@ if ($layout == "boxed")
                                 ) );
             ?>                
             </div><!--END PRIMARY MENU-->
-            
+           
+           
+           <div class="social-bookmarks" style="float:right; clear:right">
+		<ul>
+			<li class="twitter">
+				<a href="https://twitter.com/brankic1979" target="_blank">twitter</a>
+   		 	</li>
+    <li class="facebook">
+    	<a href="https://www.facebook.com/brankic1979themes" target="_blank">facebook</a>
+    	</li>
+    	</ul>
+      <!-- END UL-->
+    </div> 
+           
+           
+           
         </div><!--END HEADER-->    
         
     </div><!--END HEADER-WRAPPER-->        
