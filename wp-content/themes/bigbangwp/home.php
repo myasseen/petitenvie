@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php get_header(); ?>
 
 <div class="one">
@@ -88,8 +87,3 @@ jQuery(document).ready(function($){
 });	
 </script>
 <?php get_footer(); ?>
-=======
-<?php get_header();?>
-This is home
-<?php get_footer();?>
->>>>>>> Testing
