@@ -30,6 +30,8 @@ if ($page_template != "page-contact-2")
     <div id="footer">
     
         <div id="footer-content">
+
+
 <?php
 $all_sidebars = wp_get_sidebars_widgets();
 if (count($all_sidebars["Footer_1st_box"]) > 0 || count($all_sidebars["Footer_2nd_box"]) > 0 || count($all_sidebars["Footer_3rd_box"]) > 0 || count($all_sidebars["Footer_4th_box"]) > 0)
@@ -59,12 +61,13 @@ if (count($all_sidebars["Footer_1st_box"]) > 0 || count($all_sidebars["Footer_2n
 ?>         
             
                 <div id="footer-bottom" class="clear">
-                            
+                        <center>Copyright @ Petite Envie 2013</center>    
                     <div class="one-half">
                         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer_left") ) : endif;  ?>
                     </div><!--END ONE-HALF-->    
                             
                     <div class="one-half text-align-right last">            
+                        
                         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer_right") ) : endif;  ?>
                     </div><!--END ONE-HALF LAST-->
                     

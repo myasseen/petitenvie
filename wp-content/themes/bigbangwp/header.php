@@ -90,23 +90,38 @@ if ($layout == "boxed")
            
            <div class="social-bookmarks" style="float:right; clear:right">
 		<ul>
+			<li class="mixx">
+				<a id ="aDisplayNewsLetter" href="https://twitter.com/brankic1979" target="_blank">twitter</a>
+   		 	</li>
 			<li class="twitter">
 				<a href="https://twitter.com/brankic1979" target="_blank">twitter</a>
    		 	</li>
     <li class="facebook">
     	<a href="https://www.facebook.com/brankic1979themes" target="_blank">facebook</a>
     	</li>
+    	
     	</ul>
       <!-- END UL-->
     </div> 
-           
-           
-           
+           <div id="divNewsLetter" style="float:right; clear:right">
+    		<?php nsu_signup_form();?>
+    		</div> 
         </div><!--END HEADER-->    
         
     </div><!--END HEADER-WRAPPER-->        
     
     <!-- END HEADER -->
+    <script type='text/javascript'>
+    jQuery(document).ready(function($){
+        $("#divNewsLetter").hide();
+    	$("#aDisplayNewsLetter").click(function(){
+    		$(this).parents(".social-bookmarks").hide('slow',function(){
+    	        $("#divNewsLetter").show();
+        		});
+    		return false;
+        	});
+        });
+    </script>
 <?php
 if ($layout == "stretched")
 {
