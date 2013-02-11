@@ -12,31 +12,31 @@ get_header();
 <ul class="slides">
 <li>
 <a href="#">
-<img src="<?php echo get_template_directory_uri().'/images/b1.jpg'?>" alt="Yummy"/>
+<img src="<?php echo get_template_directory_uri().'/images/1b1.jpg'?>" alt="Yummy"/>
 </a>
 <p class="flex-caption">This is a delicious desert</p>
 </li>
 <li>
 <a href="#">
-<img src="<?php echo get_template_directory_uri().'/images/b6.jpg'?>" alt="Core Innovation"/>
+<img src="<?php echo get_template_directory_uri().'/images/1b2.jpg'?>" alt="Core Innovation"/>
 </a>
 <p class="flex-caption">Discover great products nearby</p>
 </li>
 <li>
 <a href="#">
-<img src="<?php echo get_template_directory_uri().'/images/b3.jpg'?>" alt="Market Place"/>
+<img src="<?php echo get_template_directory_uri().'/images/1b3.jpg'?>" alt="Market Place"/>
 </a>
 <p class="flex-caption">Assisting in making "real, authentic food accessible again</p>
 </li>
 <li>
 <a href="#">
-<img src="<?php echo get_template_directory_uri().'/images/b4.jpg'?>" alt="Market Place"/>
+<img src="<?php echo get_template_directory_uri().'/images/1b4.jpg'?>" alt="Market Place"/>
 </a>
 <p class="flex-caption">Assisting in making "real, authentic food accessible again</p>
 </li>
 <li>
 <a href="#">
-<img src="<?php echo get_template_directory_uri().'/images/b5.jpg'?>" alt="Market Place"/>
+<img src="<?php echo get_template_directory_uri().'/images/1b5.jpg'?>" alt="Market Place"/>
 </a>
 <p class="flex-caption">Developing a whole new range of delicious food products</p>
 </li>
