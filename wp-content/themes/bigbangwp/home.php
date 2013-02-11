@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+This is home
 <div class="one">
 <div class="slideshow-container">
 <div class="flexslider" id="index-slider">
