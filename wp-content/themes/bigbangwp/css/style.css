@@ -1459,7 +1459,7 @@ ul.item-nav li.all a {
 #header-wrapper.fixed { display:none !important; }
 #primary-menu select { display:block; }
 #primary-menu ul { display:none; }
-.one, .one-half, .two-third, .one-third, .one-fourth { float:left; position:relative; width: 100%;margin-right: 0; margin-bottom: 25px; }
+.one, .one-half, .two-third, .one-third, .one-fourth, .c_one, .c_one-fifth,.c_two-fifth, .c_fourth-fifth { float:left; position:relative; width: 100%;margin-right: 0; margin-bottom: 25px; }
 .portfolio-grid { width: 100%; margin: 0; }
 .portfolio-grid ul li.col2, .portfolio-grid ul li.col3, .portfolio-grid ul li.col4 {  width: 100%;  margin: 0 0 6px 0; }
 .portfolio-grid ul.shaped.hexagon li { margin: 0 92px 20px 92px; }
@@ -1477,7 +1477,7 @@ ul.item-nav li.all a {
 #header-wrapper.fixed { display:none !important; }
 #primary-menu select { display:block; }
 #primary-menu ul { display:none; }
-.one, .one-half, .two-third, .one-third, .one-fourth { float:left; position:relative; width: 100%;margin-right: 0; margin-bottom: 25px; }
+.one, .one-half, .two-third, .one-third, .one-fourth, .c_one, .c_one-fifth,.c_two-fifth, .c_fourth-fifth { float:left; position:relative; width: 100%;margin-right: 0; margin-bottom: 25px; }
 .grid li { border-right: none; }
 .grid.row3 li, .grid.row4 li, .grid.row5 li, .grid.row6 li { width: 300px; }
 .portfolio-grid { width: 100%; margin: 0; }

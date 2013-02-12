@@ -47,7 +47,7 @@ $page_template = $path['filename'];
 
 <?php wp_head(); ?>
 </head>
-<body id="top" <?php body_class(); ?> style="background-image: url(<?php echo get_template_directory_uri().'/images/pattern/bg-8.png'?>);" >
+<body id="top" <?php body_class(); ?> style="background-image: url(<?php echo get_template_directory_uri().'/images/pattern/bg-5.png'?>);" >
 
 <?php
 if ($layout == "boxed")
@@ -91,20 +91,21 @@ if ($layout == "boxed")
            <div class="social-bookmarks" style="float:right; clear:right">
 		<ul>
 			<li class="mixx">
-				<a id ="aDisplayNewsLetter" href="https://twitter.com/brankic1979" target="_blank">twitter</a>
+				<a id ="aDisplayNewsLetter" href="https://twitter.com/thejayantsethi" target="_blank">twitter</a>
    		 	</li>
 			<li class="twitter">
-				<a href="https://twitter.com/brankic1979" target="_blank">twitter</a>
+				<a href="https://twitter.com/thejayantsethi" target="_blank">twitter</a>
    		 	</li>
     <li class="facebook">
-    	<a href="https://www.facebook.com/brankic1979themes" target="_blank">facebook</a>
+    	<a href="https://www.facebook.com/jaysethi" target="_blank">facebook</a>
     	</li>
     	
     	</ul>
       <!-- END UL-->
-    </div> 
+    </div>
+    
            <div id="divNewsLetter" style="float:right; clear:right">
-    		<?php nsu_signup_form();?>
+    		<?php echo fn_display_subscriptionArea();?>
     		</div> 
         </div><!--END HEADER-->    
         
