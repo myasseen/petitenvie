@@ -47,7 +47,7 @@ $page_template = $path['filename'];
 
 <?php wp_head(); ?>
 </head>
-<body id="top" <?php body_class(); ?> style="background-image: url(<?php echo get_template_directory_uri().'/images/pattern/bg-5.png'?>);" >
+<body id="top" <?php body_class(); ?> >
 
 <?php
 if ($layout == "boxed")

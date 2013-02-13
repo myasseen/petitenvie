@@ -254,11 +254,12 @@ img, iframe {
 .content-wrapper {
 	width: 960px;
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: 0 0px;
 	background-color: #fff;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }	
 #header-wrapper {
+	background-image: url(http://localhost/petitenvie/wp-content/themes/bigbangwp/images/HummingBird/background.jpg);
 }	
 .header {
 	width: 960px;
@@ -478,8 +479,8 @@ margin-top: -59px;
 }
 #footer-content {
 	width: 960px;
-	margin: 0 0 0 -30px;
-	padding: 0 30px;
+	margin: 0 0 0 0px;
+	padding: 0 0px;
 	background-color: #444;
 }
 #footer-bottom, #footer-top {
