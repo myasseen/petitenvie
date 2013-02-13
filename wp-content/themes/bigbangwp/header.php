@@ -72,7 +72,21 @@ if ($layout == "boxed")
             </div><!--END LOGO-->
         
            
-           
+    <div class="social-bookmarks" style="float:right; clear:right">
+		<ul>
+			<li class="mixx">
+				<a id ="aDisplayNewsLetter" href="https://twitter.com/thejayantsethi" target="_blank">mixx</a>
+   		 	</li>
+			<li class="twitter">
+				<a href="https://twitter.com/thejayantsethi" target="_blank">twitter</a>
+   		 	</li>
+    		<li class="facebook">
+    			<a href="https://www.facebook.com/jaysethi" target="_blank">facebook</a>
+    		</li>
+    	
+    	</ul>
+      <!-- END UL-->
+    </div>       
                      
            
            
@@ -88,21 +102,7 @@ if ($layout == "boxed")
             </div><!--END PRIMARY MENU-->
            
            
-    <div class="social-bookmarks" style="float:right; clear:right">
-		<ul>
-			<li class="mixx">
-				<a id ="aDisplayNewsLetter" href="https://twitter.com/thejayantsethi" target="_blank">mixx</a>
-   		 	</li>
-			<li class="twitter">
-				<a href="https://twitter.com/thejayantsethi" target="_blank">twitter</a>
-   		 	</li>
-    		<li class="facebook">
-    			<a href="https://www.facebook.com/jaysethi" target="_blank">facebook</a>
-    		</li>
-    	
-    	</ul>
-      <!-- END UL-->
-    </div>
+    
     
            <div id="divNewsLetter" style="float:right; clear:right">
     		<?php
