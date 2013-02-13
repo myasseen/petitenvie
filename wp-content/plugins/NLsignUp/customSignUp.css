@@ -1,0 +1,21 @@
+#txtSubscribe
+{
+	border-radius:5px;
+	margin-right:5px;
+}
+#btnSubscribe
+{
+	border-radius:10px;
+	margin-right:5px;
+	
+	background-color:rgb(68,68,68);
+	
+}
+#btnCancelSubscription
+{
+	background:url('images/cancel.jpg') no-repeat;
+	width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align:top;
+}

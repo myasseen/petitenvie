@@ -165,7 +165,7 @@ input, textarea, select, #recaptcha_response_field {
 	-webkit-transition: all 0.2s ease-out 0s;   
 	-moz-transition: all 0.2s ease-out 0s;
 	-o-transition: all 0.2s ease-out 0s; 
-	background-color: #444;
+	background-color: #fff;
 	padding: 0px;
 }
 input:focus, textarea:focus, select:focus {
