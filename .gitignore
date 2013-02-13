@@ -2,7 +2,6 @@
 .afignore
 wp-config_af.php
 .DS_Store
->>>>>>> Added af config file and DS_store to ignore list
 wp-config.php
 wp-config_af.php
 wp-content/uploads/
