@@ -6,7 +6,7 @@ jQuery(document).ready( function($) {
         var EmailID = wpnl_div.children("#txtSubscribe").val();
         var isAllWell=true;
 		var error="";
-
+//Validation of the Email Id of the visitor
 if($("#txtSubscribe").val() == "email@domain.com")
 {
 	error="Please Enter Your Email ID";
@@ -30,14 +30,14 @@ else
 
 if(!isAllWell)
 {
-$('#elabel').text(error);
+	$('#elabel').text(error);
 }
-
+//This part is executed if the Email Id is correct
 else
 {
-currentobj.siblings(".loadingimage").css("visibility", "visible");
-currentobj.siblings(".loadingimage").css("display", "inline-block");
-		$.post(
+	currentobj.siblings(".loadingimage").css("visibility", "visible");
+	currentobj.siblings(".loadingimage").css("display", "inline-block");
+	$.post(
 			subsAjax.ajaxurl,
             {
 	         action: 'save_subs_in_DB',
@@ -46,31 +46,28 @@ currentobj.siblings(".loadingimage").css("display", "inline-block");
 	        },
 			function(data)
 			{
-				//$("#txtSubscribe").val('');
-	        	$('#elabel').text('Thanks For Subscibing our newsletter');
-	        	//currentobj.siblings(".loadingimage").css("visibility", "hidden");
-				//currentobj.siblings(".loadingimage").css("display", "none");
+	        	$('#elabel').text('Thanks For Subscibing our newsletter');	        					
 				wpnl_div.hide();
+				//To Display the Sign Up part once again when the Email Id is submitted
 				setTimeout(function(){$("#divNewsLetter").hide(function()
 				{
 					$(".social-bookmarks").show();
-				$('#elabel').text('');
-				$("#txtSubscribe").val('email@domain.com');
-				$("#txtSubscribe").focus(function(){
-		var currentobj = $(this);
-		if(currentobj.val()=='email@domain.com')currentobj.val('');
-	});
-	$("#txtSubscribe").blur(function(){
-		var currentobj = $(this);
-		if(currentobj.val()=='')currentobj.val('email@domain.com');		
-	});
-	$("#btnCancelSubscription").click(function(){
-		$("#divNewsLetter").hide('slow',function(){
-	        $(".social-bookmarks").show();
-		});
-		
-	})
-				wpnl_div.show();
+					$('#elabel').text('');
+					$("#txtSubscribe").val('email@domain.com');
+					$("#txtSubscribe").focus(function(){
+					var currentobj = $(this);
+					if(currentobj.val()=='email@domain.com')currentobj.val('');
+					});
+					$("#txtSubscribe").blur(function(){
+					var currentobj = $(this);
+					if(currentobj.val()=='')currentobj.val('email@domain.com');		
+					});
+					$("#btnCancelSubscription").click(function(){
+					$("#divNewsLetter").hide('slow',function(){
+	        		$(".social-bookmarks").show();
+					});
+					})
+					wpnl_div.show();
 					$(".loadingimage").css("visibility", "hidden");
 					$(".loadingimage").css("display", "none");
 				});},2000);
@@ -78,9 +75,11 @@ currentobj.siblings(".loadingimage").css("display", "inline-block");
 			}
 		);
 }
-		return false;
 	
-	});
+return false;
+	
+});
+
 	$("#txtSubscribe").focus(function(){
 		var currentobj = $(this);
 		if(currentobj.val()=='email@domain.com')currentobj.val('');
@@ -93,7 +92,6 @@ currentobj.siblings(".loadingimage").css("display", "inline-block");
 		$("#divNewsLetter").hide('slow',function(){
 	        $(".social-bookmarks").show();
 		});
-		
 	})
 	
 });
